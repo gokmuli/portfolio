@@ -48,8 +48,18 @@ a {
 }
 
 ul {
-  list-style: none;
   padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 /* Typography */
@@ -110,4 +120,33 @@ p {
 .navbar__menu__item:hover {
   border: 1px solid var(--color-whith);
   background-color: var(--color-dark-pink);
+}
+
+/*Home*/
+#home {
+  background: url("image/backbg.png") center/cover no-repeat;
+  padding: 20px;
+  text-align: center;
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-white);
+}
+
+.home__title,
+.home__description {
+  color: var(--color-whith);
+}
+
+.home__contact {
+  color: var(--color-whith);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 5px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-whith);
+  border-radius: var(--size-border-radius);
 }
