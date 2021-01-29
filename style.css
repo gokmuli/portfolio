@@ -222,6 +222,10 @@ p {
   font-size: var(--font-medium);
 }
 
+.links a:hover {
+  color: var(--color-pink);
+}
+
 .about__links a {
   color: var(--color-navy);
   font-size: var(--font-medium);
