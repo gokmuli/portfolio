@@ -108,13 +108,14 @@ p {
   transition: all var(--animation-duration) ease-in-out;
 }
 
+/*스크롤 시 생기는 .navbar--dark를 이용해서 색 대비효과 */
 #navbar.navbar--dark {
   background-color: var(--color-white);
-  padding: 8px;
-  color: var(--color-navy);
 }
 
-#navbar.navbar--dark a {
+#navbar.navbar--dark,
+#navbar.navbar--dark a,
+#navbar.navbar--dark .navbar__toggle-btn {
   color: var(--color-navy);
 }
 
